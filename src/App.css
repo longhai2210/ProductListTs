@@ -1,0 +1,51 @@
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css';
+
+.form-wrapper {
+  width: 500px;
+  margin: 0 auto;
+}
+.App {
+  text-align: center;
+  margin-top: 30px;
+}
+nav {
+  width: 300px;
+  margin: 0 auto;
+  background: #282c34;
+  height: 70px;
+  line-height: 70px;
+}
+nav ul li {
+  display: inline;
+  list-style-type: none;
+  text-align: center;
+  padding: 30px;
+}
+nav ul li a {
+  margin: 50px 0;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: white;
+  text-decoration: none;
+}
+table {
+  margin-top: 50px;
+}
+.App-link {
+  color: #61dafb;
+}
+
+li>ul                 { transform: translatex(100%) scale(0) }
+  li:hover>ul           { transform: translatex(101%) scale(1) }
+  li > button svg       { transform: rotate(-90deg) }
+  li:hover > button svg { transform: rotate(-270deg) }
+
+  .group:hover .group-hover\:scale-100 { transform: scale(1) }
+  .group:hover .group-hover\:-rotate-90 { transform: rotate(-90deg) }
+  .status:hover .status-hover\:-rotate-90 { transform: rotate(-90deg) }
+  .rotate-180 { transform: rotate(180deg) }
+  .scale-0 { transform: scale(0) }
+  .min-w-32 { min-width: 8rem }
